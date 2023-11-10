@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.age-calculator-container {
+  text-align: center;
+  margin: auto auto;
+  padding: 20px;
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20vh;
+}
+
+.calculate-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
